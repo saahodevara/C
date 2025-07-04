@@ -3,7 +3,11 @@
 int calc(int n);
 int main(void)
 {
-    // Prompt the user for change owed, in cents
+    /*
+        Prompt the user for change owed, in cents
+        user enter the change and that the total coins that are required for that cents is returned
+        we have the following cents to be changed in 25,10,5,1 cent coins
+    */
     int cents;
     do
     {
